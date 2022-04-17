@@ -9,7 +9,7 @@ html, body{
 }
 
 .logo-img{
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .nav-link{
@@ -18,124 +18,6 @@ html, body{
     margin-left: 16px;
     margin-right: 16px;
     font-size: small;
-}
-
-.page-container{
-    padding: 64px;
-}
-
-.page-title{
-    font-size: medium;
-}
-
-.border{
-    border-style: solid;
-}
-
-.footer-contacts{
-    display: inline-block;
-    width: 20%;
-    text-align: left;
-    padding: 16px;
-    box-sizing: border-box;
-}
-
-.footer-contacts-title{
-    font-size: small;
-}
-
-.footer-contacts-text{
-    font-size: small;
-    margin: 0px;
-}
-
-.footer-nav {
-    display: inline-block;
-    width: 58%;
-}
-
-.footer-copyright {
-    text-align: right;
-    display: inline-block;
-    width: 20%;
-    height: 100%;
-}
-
-.footer-copyright-title {
-    font-size: small;
-}
-
-.footer-copyright-text{
-    font-size: small;
-}
-
-.footer-nav-menu{
-    border-top: 1px solid black;
-    padding: 16px;
-}
-
-.categorie-tag {
-    text-align: left;
-    padding-left: 100px;  
-   width: 500px;
-   display: inline-block;
-   position: relative;
-   top: -200px; 
-   margin-right: -200px;
-   font-size: medium;
-}
-
-.categorie {
-    font-size: small; 
-   
-  
-}
-
-.categorie-testo {
-    font-size: xx-small; 
-    margin-left: 100px;
-    margin-top: -25px;
-    
-   
-}
-
-.categorie-descrizione {
-    font-size: x-large; 
-    
-
-}
-
-.leggidipiu {
-    font-size: small;
-
-}
-
-.foto1 { 
-     
-   padding: 200px;
-   display: inline-block;
-}
-
-.categorie-foto {
-    display: inline-block;
-    width: 100%; 
-
-}
-
-.matrimonio1 {
-    max-width: 400px;
-    display: inline-block;
-}
-
-.categorie-tag-inverso {
-    text-align: left;
-    padding-left: 10px;  
-   width: 500px;
-   display: inline-block;
-   position: relative;
-   top: -200px; 
-   margin-right: 100px;
-   font-size: medium;
 }
 
 .main-container {
@@ -147,35 +29,243 @@ html, body{
     flex-direction: column;
 }
 
-
-.center-container {
-    width: 100;
-
-}
-
 .footer-container {
 display: flex;
 background-color: #f3ebe6;
 width: 100%;
 height: 300px;
-align-items: flex-end;
+align-items: stretch;
+justify-content: center;
 }
 
 .contatti {
     flex-grow: 1;
-background-color:blue;
-height: 300px;
+
+}
+
+
+.titolo-contatti {
+    display: flex;
+    height: 100px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    font-size: small;
+    letter-spacing: 3px;
+    }
+
+.testo-contatti {
+    display: flex;
+    height: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    font-size: x-small;
+    margin-left: 70px;
+    letter-spacing: 1px;
+
+}
+
+.icone-contatti {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.facebook {
+    width: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.instagram {
+    width: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-left: 30px;
 }
 
 .menu-footer {
+    display: flex;
     flex-grow: 2;
-    height: 300px;
-background-color: rgb(4, 4, 149);
+    flex-direction: column;
+    justify-content: center;
+align-content: center;
+align-items: center;
 }
+
+.menu-menu-footer {
+    max-width: 100%;
+    height: 100px;
+    margin-top: 20px;
+letter-spacing: 1px;
+
+}
+
+.icona-menu-footer {
+    width: 140px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+align-items: center;
+
+}
+
+.divider-menu-footer {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    
+}
+
 
 .copyright {
     flex-grow: 1;
-    height: 300px;
-    background-color: blue;
+    display: flex;
+flex-direction: column;
+align-items: flex-end;
+justify-content: center;
+margin-right: 70px;
 
 }
+
+.titolo-copyright {
+    display: flex;
+    font-size: medium;
+    margin-bottom: 20px;
+    margin-top: -60px;
+    letter-spacing: 3px;
+}
+
+.testo-copyright {
+    display: flex;
+    font-size: 5px;
+    font-size: small;
+letter-spacing: 1px;
+}
+
+.link-copyright {
+    display: flex;
+    font-size: x-small;
+}
+
+.center-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.titolo-categorie {
+    display: flex;
+    width: 10%;
+    align-items: flex-start;
+    padding-left: 200px;
+    font-size: medium;
+    letter-spacing: 3px;
+    margin-top: 200px;
+}
+
+.testo-categorie {
+    display: flex;
+    width: 20%;
+    align-items: flex-start;
+    padding-left: 350px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-size: x-small;
+}
+
+.descrizione-categorie {
+    display: flex;
+    width: 30%;
+    align-items: flex-start;
+    padding-left: 200px;
+    text-align: left;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+.leggidipiu {
+    display: flex;
+    width: 10%;
+    align-items: flex-start;
+    padding-left: 200px;
+
+}
+
+.foto {
+    display: flex;
+    width: 600px;
+    margin-left: 650px;
+    margin-top: -200px;
+    margin-bottom: 100px;
+    align-items: flex-end;
+}
+
+.titolo-portfolio {
+display: flex;
+margin-top: 60px;
+}
+
+
+.r-center-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.r-titolo-categorie {
+    display: flex;
+    width: 10%;
+    font-size: medium;
+    letter-spacing: 3px;
+margin-left: 800px;
+margin-top: -450px;
+}
+
+.r-testo-categorie {
+    display: flex;
+    width: 20%;
+    margin-bottom: 20px;
+    font-size: x-small;
+    margin-left: 950px;
+    margin-top: -20px;
+}
+
+.r-descrizione-categorie {
+    display: flex;
+    width: 30%;   
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-left: 800px;
+    text-align: left;
+}
+
+.r-leggidipiu {
+    display: flex;
+    width: 10%;
+   margin-top: 20px;
+   margin-left: 800px;
+}
+
+.r-foto {
+    display: flex;
+    width: 600px;
+    align-items: flex-start;
+    margin-left: 150px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
